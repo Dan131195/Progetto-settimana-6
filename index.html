@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg bg-black">
             <div class="container-fluid p-0">
                 <a class="navbar-brand" href="#"><img src="Assets/Img/netflix_logo.png" alt="Logo Netflix"></a>
-                <button class="navbar-toggler bg-body-secondary" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler btn btn-outline-secondary" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -65,10 +65,10 @@
     </header>
 
     <main>
-        <section id="topSection">
-            <article>
+        <section id="topSection" class="d-flex justify-content-between align-items-center">
+            <article class="d-flex justify-content-start align-items-center w-25">
                 <h2 class="text-white">TV Shows</h2>
-                <select class="form-select bg-dark text-white" aria-label="Default select example">
+                <select class="form-select bg-dark text-white mx-5" aria-label="Default select example">
                     <option selected>Genres</option>
                     <option value="1">Comedy</option>
                     <option value="2">Anime</option>
@@ -76,17 +76,273 @@
                 </select>
             </article>
             <article>
-                <div class="border-1 border-secondary">
+                <span class="border border-secondary p-1 mx-2">
                     <i class="bi bi-text-left text-secondary"></i>
-                </div>
-                
-                <i class="bi bi-grid text-secondary"></i>
+                </span>
+                <span class="border border-secondary p-1">
+                    <i class="bi bi-grid text-secondary"></i>
+                </span>
             </article>
+        </section>
+
+        <br>
+        
+        <!-- TRENDING SECTION -->
+        <section id="trendingNow">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="movie-gallery">
+                    <h5 class="text-light mt-2 mb-2">Trending Now</h5>
+                    <div id="trending-now" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="movie-row">
+                                    <div class="row g-1">
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media0.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media1.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media2.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media3.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media4.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media5.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="movie-row">
+                                    <div class="row g-1">
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media24.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media25.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media26.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media27.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media28.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media29.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#trending-now"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#trending-now"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+        </section>
+
+        <br>
+        <br>
+
+        <!-- WATCH AGAIN SECTION -->
+        <section id="trendingNow">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="movie-gallery">
+                    <h5 class="text-light mt-2 mb-2">Watch It Again</h5>
+                    <div id="trending-now" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="movie-row">
+                                    <div class="row g-1">
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media6.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media7.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media8.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media9.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media10.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media11.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="movie-row">
+                                    <div class="row g-1">
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media6.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media7.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media8.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media9.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media10.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media11.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#trending-now"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#trending-now"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+        </section>
+
+        <br>
+        <br>
+
+        <!-- NEW RELEASIS SECTION -->
+        <section id="trendingNow">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="movie-gallery">
+                    <h5 class="text-light mt-2 mb-2">New Releases</h5>
+                    <div id="trending-now" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="movie-row">
+                                    <div class="row g-1">
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media12.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media13.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media14.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media15.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media16.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media17.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="movie-row">
+                                    <div class="row g-1">
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media18.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media19.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media20.jpg" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media21.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media22.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                        <div class="col-12 col-md-2">
+                                            <img src="Assets/Img/media23.webp" class="opacity-75" alt="Movie Title">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#trending-now"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#trending-now"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
         </section>
     </main>
 
-    <footer>
+    <br>
+    <br>
+    <br>
 
+    <footer>
+        <section id="socials">
+            <i class="bi bi-facebook text-secondary me-2"></i>
+            <i class="bi bi-instagram text-secondary mx-2"></i>
+            <i class="bi bi-twitter-x text-secondary mx-2"></i>
+            <i class="bi bi-youtube text-secondary mx-2"></i>
+        </section>
+        <section class="d-flex flex-column flex-md-row justify-content-md-between mt-2">
+            <div class="d-flex flex-column myFooter">
+                <a href="javascript:void(0)" class="my-2">Audio and Subtitles</a>
+                <a href="javascript:void(0)" class="my-2">Media Center</a>
+                <a href="javascript:void(0)" class="my-2">Privacy</a>
+                <a href="javascript:void(0)" class="my-2">Contact US</a>
+                <button type="button" class="btn btn-outline-secondary my-2"><a href="javascript:void(0)">Service Code</a></button>
+                <p class="text-secondary my-2">&copy; 1997-2021 Netflix Inc</p>
+            </div>
+            <div class="d-flex flex-column myFooter">
+                <a href="javascript:void(0)" class="my-2">Audio Description</a>
+                <a href="javascript:void(0)" class="my-2">Investor Relations</a>
+                <a href="javascript:void(0)" class="my-2">Legal Notices</a>
+                
+            </div>
+            <div class="d-flex flex-column myFooter">
+                <a href="javascript:void(0)" class="my-2">Help Center</a>
+                <a href="javascript:void(0)" class="my-2">Jobs</a>
+                <a href="javascript:void(0)" class="my-2">Cookie Preferences</a>
+                
+            </div>
+            <div class="d-flex flex-column myFooter">
+                <a href="javascript:void(0)" class="my-2">Gift Cards</a>
+                <a href="javascript:void(0)" class="my-2">Terms of Use</a>
+                <a href="javascript:void(0)" class="my-2">Corporate Information</a>
+                
+            </div>
+        </section>
     </footer>
 
 

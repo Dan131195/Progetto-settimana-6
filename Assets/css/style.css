@@ -27,7 +27,7 @@ header, main {
 }
 
 .navbar-brand {
-  width: 8%;
+  width: 6rem;
 }
 
 .navbar-brand img {
@@ -47,8 +47,50 @@ header, main {
   border-radius: 10px;
 }
 
-/* HEADER */
+.navbar-toggler-icon {
+    color: #ffffff !important;
+}
+
+/* MAIN */
 
 .form-select {
-    width: 7%;
+    width: 8rem;
+}
+
+.carousel-item {
+    justify-content: space-between !important;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.1,1.1) !important;
+    opacity: 100 !important;
+    z-index: 1;
+}
+
+.col-md-2 img {
+    width: 100%;
+}
+
+.carousel button {
+    width: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#socials i {
+    font-size: 1.5rem;
+}
+
+.myFooter a {
+    text-decoration: none;
+    color: #6C757D;
+}
+
+.myFooter button {
+    width: 9rem;
 }
