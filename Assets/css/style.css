@@ -121,11 +121,12 @@ footer {
 #myProfileAvatar span {
   width: 2em;
   height: 2em;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   top: 0.5rem;
   left: 1rem;
   z-index: 1000;
+  cursor: pointer;
 }
 .container input {
   position: absolute;
