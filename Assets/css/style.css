@@ -24,6 +24,15 @@ main {
   color: #ffffff !important;
 }
 
+.navbar-toggler {
+    border: 1px solid #ffffff !important;
+    background-color: #6d6d6d !important;
+}
+
+.navbar-toggler:hover {
+    background-color: #cbcbcb !important;
+}
+
 .active {
   font-weight: bold;
   color: #ffffff !important;
@@ -78,7 +87,7 @@ h2 {
 }
 
 .carousel-item img:hover {
-  transform: scale(1.1, 1.1) !important;
+  transform: scale(1.02) !important;
   opacity: 100 !important;
   z-index: 1000;
 }
@@ -178,4 +187,10 @@ footer {
   border: 3px solid #434343;
   border-radius: 6px;
   transition: all 0.375s;
+}
+
+/* ----- ACCOUNT ----- */
+
+#paypal {
+    width: 7rem;
 }
