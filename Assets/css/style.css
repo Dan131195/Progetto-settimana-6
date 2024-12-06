@@ -9,21 +9,28 @@ body {
   font-size: 1rem;
 }
 
-header, main {
-    width: 90%;
-    margin: 0 auto;
+header,
+main {
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* HEADER */
 
 .nav-link:hover,
 #navbarSupportedContent a:hover,
-.bi-bell-fill:hover, .dropdown-item {
+.bi-bell-fill:hover,
+.dropdown-item {
+  color: #ffffff !important;
+}
+
+.active {
+  font-weight: bold;
   color: #ffffff !important;
 }
 
 .dropdown-item:hover {
-    background-color: #6d6d6d;
+  background-color: #6d6d6d;
 }
 
 .navbar-brand {
@@ -48,49 +55,122 @@ header, main {
 }
 
 .navbar-toggler-icon {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 /* MAIN */
 
 .form-select {
-    width: 8rem;
+  width: 8rem;
+}
+
+#option:hover {
+  background-color: #6c757d !important;
+  color: green !important;
 }
 
 .carousel-item {
-    justify-content: space-between !important;
+  justify-content: space-between !important;
 }
 
 .carousel-item img:hover {
-    transform: scale(1.1,1.1) !important;
-    opacity: 100 !important;
-    z-index: 1;
+  transform: scale(1.1, 1.1) !important;
+  opacity: 100 !important;
+  z-index: 1000;
 }
 
 .col-md-2 img {
-    width: 100%;
+  width: 100%;
 }
 
 .carousel button {
-    width: 2rem;
+  width: 2rem;
 }
 
 /* FOOTER */
 
 footer {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #socials i {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .myFooter a {
-    text-decoration: none;
-    color: #6C757D;
+  text-decoration: none;
+  color: #6c757d;
 }
 
 .myFooter button {
-    width: 9rem;
+  width: 9rem;
+}
+
+/* ------ MY PROFILE ----- */
+
+#myProfile {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#myProfileAvatar img {
+  width: 100%;
+}
+
+#myProfileAvatar span {
+  width: 2em;
+  height: 2em;
+  border: 1px solid white;
+  border-radius: 50%;
+  top: 0.5rem;
+  left: 1rem;
+  z-index: 1000;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-wrapper *,
+.checkbox-wrapper *::before,
+.checkbox-wrapper *::after {
+  box-sizing: border-box;
+}
+
+#label {
+    width: 80%;
+}
+
+.checkbox-wrapper label {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.checkbox-wrapper input {
+  visibility: hidden;
+  display: none;
+}
+
+.checkbox-wrapper input:checked ~ .checkbox {
+  transform: rotate(30deg);
+  width: 7px;
+  margin-left: 12px;
+  border-color: #24c78e;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 0;
+}
+
+.checkbox-wrapper .checkbox {
+  display: block;
+  width: inherit;
+  height: inherit;
+  border: 3px solid #434343;
+  border-radius: 6px;
+  transition: all 0.375s;
 }
