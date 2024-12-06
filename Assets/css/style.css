@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+header, main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.nav-link:hover,
+#navbarSupportedContent a:hover,
+.bi-bell-fill:hover, .dropdown-item {
+  color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #6d6d6d;
+}
+
+.navbar-brand {
+  width: 8%;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+#kids {
+  text-decoration: none;
+}
+
+.btn-group {
+  width: 5%;
+}
+
+#avatar {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* HEADER */
+
+.form-select {
+    width: 7%;
+}
